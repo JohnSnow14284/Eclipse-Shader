@@ -1142,7 +1142,11 @@ if (gl_FragCoord.x * texelSize.x < 1.0  && gl_FragCoord.y * texelSize.y < 1.0 )	
 			// f0 = max(specularValues.g, harcodedF0);
 		#endif
 		
-		float roughness = specularValues.r; 
+		float roughness = specularValues.r;
+		if(isWater) {
+			roughness = 1.0;
+			f0 = harcodedF0;
+		}
 
 		if(UnchangedAlpha <= 0.0 && !isReflective) f0 = 0.0;
 

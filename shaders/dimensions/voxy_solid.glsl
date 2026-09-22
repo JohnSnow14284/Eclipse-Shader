@@ -139,8 +139,8 @@ void voxy_emitFragment(VoxyFragmentParameters parameters) {
 
 	if (normal.z<=-0.9) normal.xy = vec2(-0.0000000000001);
 
-	vec2 lightmap = parameters.lightMap;
-	lightmap = lightmap / (30.0 / 32.0) - (1.0 / 32.0);
+	vec2 lightmap = parameters.lightMap * (256.0 / 240.0);
+	lightmap = clamp((lightmap - 1.0 / 32.0) * 32.0 / 30.0, 0.0, 1.0);
 
     vec4 data1 = clamp(vec4(encodeNormal(normal), lightmap), 0.0, 1.0);
 

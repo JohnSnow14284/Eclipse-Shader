@@ -83,15 +83,6 @@ void voxy_emitFragment(VoxyFragmentParameters parameters) {
 		) {
 			SSSAMOUNT = 0.5;
 		}
-		
-		// low
-		#ifdef MISC_BLOCK_SSS
-			else if(
-				blockID == BLOCK_SSS_WEIRD || blockID == BLOCK_GRASS
-			){
-				SSSAMOUNT = 0.5;
-			}
-		#endif
 	#endif
 
 	float EMISSIVE = 0.0;

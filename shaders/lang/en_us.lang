@@ -869,7 +869,6 @@ screen.POM = Parallax Occlusion Mapping / POM
 
 screen.Subsurface_Scattering = Sub-Surface Scattering
     option.LabSSS_Curve = LabSSS Curve
-    option.MISC_BLOCK_SSS = SSS for Random Blocks
     option.MOB_SSS = SSS for Mobs
     option.Ambient_SSS = SSS from the Sky
     option.ambientsss_brightness = Sky SSS Brightness
@@ -1087,7 +1086,6 @@ screen.Resource_Pack_Support.comment = A handfull of effects that use informatio
 screen.Subsurface_Scattering.comment = §bWhat is this?§r Sub-surface scattering is what happens when you put a bright light on your hand, and it starts to glow. The sun actually does the same thing to plants, cloth, skin, and other things.
     option.SSS_TYPE_SETTING.comment = Configure how the sub-surface scattering is applied to the world.  §bHardcoded:§r The shader decides what gets it. §bLabSSS:§r The resourcepack decides what gets it. §aPERFORMANCE COST:§r very low
     option.MOB_SSS.comment = Toggle sub-surface scattering for mobs. players are included. §aPERFORMANCE COST:§r very low
-    option.MISC_BLOCK_SSS.comment = Toggle sub-surface scattering for random blocks it may not fit. this is for grass and sand mostly. §aPERFORMANCE COST:§r very low
     option.Ambient_SSS.comment = §bWhat is this?§r sub-surface scattering from light coming from the sky, instead of the sun. §aPERFORMANCE COST:§r very low to medium; if SSAO is enabled this costs very little, but costs more if SSAO is OFF
     option.ambientsss_brightness.comment = Configure the brightness of sub-surface scattering from the sky's light
 

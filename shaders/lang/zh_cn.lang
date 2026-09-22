@@ -894,7 +894,6 @@ screen.Refraction = 折射
 
 screen.Subsurface_Scattering = 次表面散射
     option.LabSSS_Curve = Lab次表面散射曲线
-    option.MISC_BLOCK_SSS = 随机方块的次表面散射
     option.MOB_SSS = 生物的次表面散射
     option.Ambient_SSS = 来自天空的次表面散射
     option.ambientsss_brightness = 天空次表面散射亮度
@@ -1076,7 +1075,6 @@ screen.Resource_Pack_Support.comment = 一些使用资源包提供信息的特�
 screen.Subsurface_Scattering.comment = §b这是什么？§r 次表面散射是当您将强光放在手上时，它开始发光的情况。太阳实际上对植物、布料、皮肤和其他东西也有同样的效果。
     option.SSS_TYPE_SETTING.comment = 配置次表面散射如何应用于世界。  §b硬编码：§r 着色器决定什么获得它。 §bLabSSS：§r 资源包决定什么获得它。 §a性能消耗：§r 非常低
     option.MOB_SSS.comment = 为生物切换次表面散射。包括玩家。 §a性能消耗：§r 非常低
-    option.MISC_BLOCK_SSS.comment = 为可能不适合的随机方块切换次表面散射。这主要用于草和沙。 §a性能消耗：§r 非常低
     option.Ambient_SSS.comment = §b这是什么？§r 来自天空的光线而不是太阳的次表面散射。 §a性能消耗：§r 非常低到中；如果启用了 SSAO，则成本非常低，但如果 SSAO 关闭则成本更高
     option.ambientsss_brightness.comment = 配置来自天空光线的次表面散射的亮度
 

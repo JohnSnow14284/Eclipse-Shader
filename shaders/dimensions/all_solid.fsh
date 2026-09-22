@@ -868,9 +868,6 @@ void main() {
 					data_in.blockID == BLOCK_CELESTIUM || (data_in.blockID >= 269 && data_in.blockID <= 274) || data_in.blockID == BLOCK_SNOW_LAYERS || data_in.blockID == BLOCK_CARPET ||
 					data_in.blockID == BLOCK_AMETHYST_BUD_MEDIUM || data_in.blockID == BLOCK_AMETHYST_BUD_LARGE || data_in.blockID == BLOCK_AMETHYST_CLUSTER ||
 					data_in.blockID == BLOCK_BAMBOO || data_in.blockID == BLOCK_SAPLING || data_in.blockID == BLOCK_VINE || data_in.blockID == BLOCK_VINE_OTHER
-					#ifdef MISC_BLOCK_SSS
-					|| data_in.blockID == BLOCK_SSS_WEIRD || data_in.blockID == BLOCK_GRASS
-					#endif
 				) {
 					SSSAMOUNT = 0.5;
 				} else if(data_in.blockID == GRASS_BLOCK_SNOWY) {

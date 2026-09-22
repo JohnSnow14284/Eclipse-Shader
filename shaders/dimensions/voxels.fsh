@@ -490,9 +490,6 @@ void main() {
                 blockID == BLOCK_CELESTIUM || (blockID >= 269 && blockID <= 274) || blockID == BLOCK_SNOW_LAYERS || blockID == BLOCK_CARPET ||
                 blockID == BLOCK_AMETHYST_BUD_MEDIUM || blockID == BLOCK_AMETHYST_BUD_LARGE || blockID == BLOCK_AMETHYST_CLUSTER ||
                 blockID == BLOCK_BAMBOO || blockID == BLOCK_SAPLING || blockID == BLOCK_VINE || blockID == BLOCK_VINE_OTHER
-                #ifdef MISC_BLOCK_SSS
-                || blockID == BLOCK_SSS_WEIRD || blockID == BLOCK_GRASS
-                #endif
             ) {
                 SSSAMOUNT = 0.5;
             }
